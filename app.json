@@ -1,0 +1,29 @@
+{
+  "id": "e74d5a87-f0dd-4016-8ff3-f5f5b85ee6b1",
+  "name": "SchoolManagementV1",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "target": "OnPrem",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "6.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
