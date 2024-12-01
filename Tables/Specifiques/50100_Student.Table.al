@@ -57,6 +57,30 @@ table 50100 Student
             Editable = false;
 
         }
+        field(7; "First Semester Average"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'First Semester Average';
+            Editable = false;
+        }
+        field(8; "Second Semester Average"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Second Semester Average';
+            Editable = false;
+        }
+        field(9; "Overall Year Average"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Overall Year Average';
+            Editable = false;
+        }
+        field(10; "Overall Year Status"; Enum "Oveverall Year Status")
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Overall Year Status';
+            Editable = false;
+        }
     }
 
     keys

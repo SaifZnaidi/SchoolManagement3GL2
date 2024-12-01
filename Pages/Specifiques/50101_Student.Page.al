@@ -28,13 +28,10 @@ page 50101 Student
                 {
                     ApplicationArea = All;
                 }
-
-
-
             }
             group(ClassInfo)
             {
-                Caption = 'Class Informtions';
+                Caption = 'Class Informations';
                 field(Class; Rec.Class)
                 {
                     ApplicationArea = All;
@@ -45,7 +42,37 @@ page 50101 Student
                     ApplicationArea = All;
                 }
             }
+            group(AVG)
+            {
+                Caption = 'Averages';
+                field("First Semester Average"; Rec."First Semester Average")
+                {
+                    ApplicationArea = All;
+
+                }
+                field("Second Semester Average"; Rec."Second Semester Average")
+                {
+                    ApplicationArea = All;
+
+                }
+                field("Overall Year Average"; Rec."Overall Year Average")
+                {
+                    ApplicationArea = All;
+
+                }
+                field("Overall Year Status"; Rec."Overall Year Status")
+                {
+                    ApplicationArea = All;
+                }
+
+            }
+            part(Notes; Notes)
+            {
+                ApplicationArea = All;
+                SubPageLink = "Student CIN" = field(CIN);
+            }
         }
+
     }
 
     actions
@@ -70,6 +97,68 @@ page 50101 Student
                     StudentList_L.Run();
                 end;
             }
+            action(CalsFirstSemesterAVG)
+            {
+                Caption = 'Calculate First Semester Average';
+                Promoted = true;
+                PromotedCategory = Process;
+                Image = CalculateDiscount;
+                ApplicationArea = ALL;
+
+                trigger OnAction()
+                var
+                    AVGCalcMgt_L: Codeunit "Average Calculation Management";
+                    SemesterAVG_L: Decimal;
+                    Message_L: Label 'The semester average of %1 %2 is %3';
+                    Semester_L: Enum Semester;
+                begin
+                    //  SemesterAVG_L := AVGCalcMgt_L.CalcSemesterAvg(Rec.CIN);
+                    //  Message(Message_L, Rec."First Name", Rec."Last Name", Format(SemesterAVG_L));
+                    AVGCalcMgt_L.CalcSemesterAvg(Rec.CIN, Semester_L::S1);
+                end;
+            }
+            action(CalsSecondSemesterAVG)
+            {
+                Caption = 'Calculate Second Semester Average';
+                Promoted = true;
+                PromotedCategory = Process;
+                Image = CalculateDiscount;
+                ApplicationArea = ALL;
+
+                trigger OnAction()
+                var
+                    AVGCalcMgt_L: Codeunit "Average Calculation Management";
+                    SemesterAVG_L: Decimal;
+                    Message_L: Label 'The semester average of %1 %2 is %3';
+                    Semester_L: Enum Semester;
+                begin
+                    //  SemesterAVG_L := AVGCalcMgt_L.CalcSemesterAvg(Rec.CIN);
+                    //  Message(Message_L, Rec."First Name", Rec."Last Name", Format(SemesterAVG_L));
+                    AVGCalcMgt_L.CalcSemesterAvg(Rec.CIN, Semester_L::S2);
+                end;
+            }
+            action(CalsOverallYearAVG)
+            {
+                Caption = 'Calculate Overall Year Average';
+                Promoted = true;
+                PromotedCategory = Process;
+                Image = Calculate;
+                ApplicationArea = ALL;
+
+                trigger OnAction()
+                var
+                    AVGCalcMgt_L: Codeunit "Average Calculation Management";
+                    ConfirmMessage_L: Label 'Are your that you wont to calculate this student''s Averall year average ?';
+                begin
+                    if Confirm(ConfirmMessage_L, false) then
+                        AVGCalcMgt_L.CalcOverallYearAvg(Rec.CIN)
+                    else
+                        exit;
+
+                end;
+            }
+
+
         }
     }
 

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="SchoolManagementV1">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3454070650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3454070650 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Class - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3454070650 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Class - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3454070650 - Field 1159662906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student's Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Class - Field Student's Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3454070650 - Field 2199584568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teacher</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Class - Field Teacher - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 3123372377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Line No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 2898143332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Note - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 1862981322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Semester</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Semester - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 155745679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student CIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Student CIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 281878947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Subject Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 281878947 - Method 2126772001 - NamedType 73421469" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have already affected the note %1 to subject %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Subject Code - Method OnValidate - NamedType Error_L</note>
+        </trans-unit>
+        <trans-unit id="Table 222620933 - Field 3757450838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Subject Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 1576740555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Birth Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Birth Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 2016694080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field CIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 2016694080 - Method 2126772001 - NamedType 2427450428" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The CIN should be 8 caracters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field CIN - Method OnValidate - NamedType ErorMsg_L</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 3454070650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 503055404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Class Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 3444679095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field First Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 3731690673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Semester Average</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field First Semester Average - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 4068742839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Last Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 3618202525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overall Year Average</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Overall Year Average - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 2143102360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overall Year Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Overall Year Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1418429579 - Field 1292362959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Second Semester Average</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Second Semester Average - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1234124704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1234124704 - Field 3657287603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coeff</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Field Coeff - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1234124704 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1234124704 - Field 281878947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Field Subject Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219391563 - Method 3153076983 - NamedType 3775775102" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please verify the averages calculations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Average Calculation Management - Method CalcOverallYearAvg - NamedType ErrorMsg_L</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219391563 - Method 2039767605 - NamedType 408318675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The semester average is inserted with success.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Average Calculation Management - Method CalcSemesterAvg - NamedType SuccessMsg_L</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 219391563 - Method 2039767605 - NamedType 3775775102" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Something went wrong.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Average Calculation Management - Method CalcSemesterAvg - NamedType ErrorMsg_L</note>
+        </trans-unit>
+        <trans-unit id="Page 350181992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Administrator Role Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 350181992 - Action 1824029429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student List Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Action Student List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 350181992 - Action 3301768406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exams</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Action Exams - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 350181992 - Action 2905005406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Action HR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3162477342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Class Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3830570520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Class List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 222620933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Notes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Control 1283956108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Averages</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Control AVG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Control 2796525916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class Informations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Control ClassInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action ActionName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 714582875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate First Semester Average</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsFirstSemesterAVG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 714582875 - Method 1377591017 - NamedType 3431358372" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The semester average of %1 %2 is %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsFirstSemesterAVG - Method OnAction - NamedType Message_L</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 2035892551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Overall Year Average</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsOverallYearAVG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 2035892551 - Method 1377591017 - NamedType 202729654" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are your that you wont to calculate this student's Averall year average ?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsOverallYearAVG - Method OnAction - NamedType ConfirmMessage_L</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 2668046709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Second Semester Average</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsSecondSemesterAVG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1418429579 - Action 2668046709 - Method 1377591017 - NamedType 3431358372" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The semester average of %1 %2 is %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsSecondSemesterAVG - Method OnAction - NamedType Message_L</note>
+        </trans-unit>
+        <trans-unit id="Page 244912790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Students - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 244912790 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Students - Action ActionName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1078183860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Subject Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3415120402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subject List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Subject List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1824029429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Student List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1824029429 - Control 3126372538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Class Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Student List - Control Class_G - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1028528413 - Field 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1498446062">
+          <source>Job</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Employee Ext - Field Job - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3661919152 - EnumValue 1569466922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Administration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Administration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3661919152 - EnumValue 2767491406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cleaner</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Cleaner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3661919152 - EnumValue 1319003447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Guard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Guard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3661919152 - EnumValue 2199584568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teacher</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Teacher - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

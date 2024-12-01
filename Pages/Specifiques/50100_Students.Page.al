@@ -33,6 +33,11 @@ page 50100 Students
                 {
                     ApplicationArea = All;
                 }
+                field("Overall Year Status"; Rec."Overall Year Status")
+                {
+                    ApplicationArea = All;
+                }
+
 
 
             }
