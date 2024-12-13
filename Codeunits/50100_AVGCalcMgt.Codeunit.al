@@ -47,6 +47,7 @@ codeunit 50100 "Average Calculation Management"
     var
         Student_L: Record Student;
         ErrorMsg_L: Label 'Please verify the averages calculations';
+        StudentResult_L: Record "Student Results";
     begin
         if Student_L.Get(StudentCIN_P) then begin
             if (Student_L."First Semester Average" = 0) OR (Student_L."Second Semester Average" = 0) then
@@ -60,8 +61,19 @@ codeunit 50100 "Average Calculation Management"
             else
                 Student_L."Overall Year Status" := Student_L."Overall Year Status"::"Not Passed";
             Student_L.Modify(); // Modify() function is necessary to apply changements
-
         end;
+
+        StudentResult_L.Init();
+        StudentResult_L.Validate(CIN, StudentCIN_P);
+        StudentResult_L.Insert();
+        StudentResult_L.Validate("Full Name", Student_L."First Name" + ' ' + Student_L."Last Name");
+        StudentResult_L.Validate("Average S1", Student_L."First Semester Average");
+        StudentResult_L.Validate("Average S2", Student_L."Second Semester Average");
+        StudentResult_L.Validate("OY Average", Student_L."Overall Year Average");
+        StudentResult_L.Validate(Status, Student_L."Overall Year Status");
+        StudentResult_L.Modify();
+
+
     end;
 
 
