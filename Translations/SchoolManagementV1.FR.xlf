@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="FR" original="SchoolManagementV1.g.xlf">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="SchoolManagementV1.g.xlf">
     <body>
       <group id="body">
         <trans-unit id="Table 3454070650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -49,378 +49,323 @@
           <source>Notes</source>
           <target>Notes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Note - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 222620933 - Field 1862981322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Semester</source>
           <target>Semester</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Semester - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 222620933 - Field 155745679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student CIN</source>
           <target>CIN étudiant</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Student CIN - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 222620933 - Field 281878947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subject Code</source>
           <target>Code matière</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Subject Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 222620933 - Field 281878947 - Method 2126772001 - NamedType 73421469" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have already affected the note %1 to subject %2</source>
           <target>Vous déjà affecter la note %1 pour la matière %2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Subject Code - Method OnValidate - NamedType Error_L</note>
         </trans-unit>
         <trans-unit id="Table 222620933 - Field 3757450838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subject Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Description matière</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Notes - Field Subject Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Etudiant</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 1576740555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Birth Date</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Date de naissance</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Birth Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 2016694080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CIN</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>CIN</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field CIN - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 2016694080 - Method 2126772001 - NamedType 2427450428" size-unit="char" translate="yes" xml:space="preserve">
           <source>The CIN should be 8 caracters</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Le CIN doit être composé de 8 caractères.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field CIN - Method OnValidate - NamedType ErorMsg_L</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 3454070650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class</source>
           <target>Classe</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Class - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 503055404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class Description</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Description classes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Class Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 3444679095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>First Name</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Prénom</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field First Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 3731690673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>First Semester Average</source>
           <target>Moyenne semestre 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field First Semester Average - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 4068742839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last Name</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Nom</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Last Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 3618202525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Overall Year Average</source>
           <target>Moyenne générale</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Overall Year Average - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 2143102360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Overall Year Status</source>
           <target>Statut générale</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Overall Year Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1418429579 - Field 1292362959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Second Semester Average</source>
           <target>Moyenne semestre 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Student - Field Second Semester Average - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1234124704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subject</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Matière</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1234124704 - Field 3657287603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Coeff</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Coeff</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Field Coeff - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1234124704 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <target>Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1234124704 - Field 281878947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target>Code</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Subject - Field Subject Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 219391563 - Method 3153076983 - NamedType 3775775102" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please verify the averages calculations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Veuillez vérifier le calcul des moyennes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Average Calculation Management - Method CalcOverallYearAvg - NamedType ErrorMsg_L</note>
         </trans-unit>
         <trans-unit id="Codeunit 219391563 - Method 2039767605 - NamedType 408318675" size-unit="char" translate="yes" xml:space="preserve">
           <source>The semester average is inserted with success.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>La moyenne de la semestre est insérée avec succès.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Average Calculation Management - Method CalcSemesterAvg - NamedType SuccessMsg_L</note>
         </trans-unit>
         <trans-unit id="Codeunit 219391563 - Method 2039767605 - NamedType 3775775102" size-unit="char" translate="yes" xml:space="preserve">
           <source>Something went wrong.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Un erreur s'est levé.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Average Calculation Management - Method CalcSemesterAvg - NamedType ErrorMsg_L</note>
         </trans-unit>
         <trans-unit id="Page 350181992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Administrator Role Center</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Tableau de bord administrateur</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 350181992 - Action 1824029429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student List Report</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Etat liste des étudiants</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Action Student List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 350181992 - Action 3301768406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exams</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Examens</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Action Exams - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 350181992 - Action 2905005406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>HR</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>RH</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Administrator RoleCenter - Action HR - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3162477342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class Card</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Fiche classe</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Class Card - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3830570520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class List</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Liste classe</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Class List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 222620933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Notes</source>
           <target>Notes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Notes - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student Card</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Fiche étudiant</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Control 1283956108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Averages</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Moyennes</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Control AVG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Control 2796525916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class Informations</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Informations classe</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Control ClassInfo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Général</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>[Imprimer </target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action ActionName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 714582875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate First Semester Average</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Calculer moyenne semestre 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsFirstSemesterAVG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 714582875 - Method 1377591017 - NamedType 3431358372" size-unit="char" translate="yes" xml:space="preserve">
           <source>The semester average of %1 %2 is %3</source>
-          <target>[NAB: NOT TRANSLATED]</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <target>la moyenne semestrielle de %1 %2 est %3</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsFirstSemesterAVG - Method OnAction - NamedType Message_L</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 2035892551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Overall Year Average</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Calculer moyenne générale</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsOverallYearAVG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 2035892551 - Method 1377591017 - NamedType 202729654" size-unit="char" translate="yes" xml:space="preserve">
           <source>Are your that you wont to calculate this student's Averall year average ?</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>êtes-vous sûr de vouloir calculer la moyenne générale de cet étudiant ?</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsOverallYearAVG - Method OnAction - NamedType ConfirmMessage_L</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 2668046709 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Second Semester Average</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Calculer moyenne semestre 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsSecondSemesterAVG - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1418429579 - Action 2668046709 - Method 1377591017 - NamedType 3431358372" size-unit="char" translate="yes" xml:space="preserve">
           <source>The semester average of %1 %2 is %3</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>La moyenne de la semestre de %1 %2 est %3</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student - Action CalsSecondSemesterAVG - Method OnAction - NamedType Message_L</note>
         </trans-unit>
         <trans-unit id="Page 244912790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student List</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Liste étudiant</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Students - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 244912790 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Imprimer</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Students - Action ActionName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1078183860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subject Card</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Fiche matière</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Subject Card - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3415120402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Subject List</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Liste matière</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Subject List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1824029429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student List</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Liste étudiant</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Student List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1824029429 - Control 3126372538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Class Filter</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Filtre classe</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Student List - Control Class_G - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1028528413 - Field 2818324089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1498446062">
           <source>Job</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Fonction</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Employee Ext - Field Job - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3661919152 - EnumValue 1569466922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Administration</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Administration</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Administration - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3661919152 - EnumValue 2767491406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cleaner</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Femme de ménage</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Cleaner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3661919152 - EnumValue 1319003447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Guard</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Guard</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Guard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3661919152 - EnumValue 2199584568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Teacher</source>
           <target>Enseignant</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Jobs - EnumValue Teacher - Property Caption</note>
         </trans-unit>
       </group>

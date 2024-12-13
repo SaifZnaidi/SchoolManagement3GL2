@@ -7,7 +7,10 @@ page 50107 "Administrator RoleCenter"
     {
         area(RoleCenter)
         {
-
+            part(PartName; "Student Over Year Status")
+            {
+                ApplicationArea = All;
+            }
         }
     }
 

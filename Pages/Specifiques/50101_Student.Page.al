@@ -93,8 +93,27 @@ page 50101 Student
                 begin
                     // if Student_L.Get(Rec.CIN) then
                     //      Report.Run(50100, true, false, Student_L);
-                    StudentList_L.SetTableView(Rec);
+                    CurrPage.SetSelectionFilter(Student_L);
+                    StudentList_L.SetTableView(Student_L);
                     StudentList_L.Run();
+                end;
+            }
+
+            action(Notes)
+            {
+                Caption = 'Notes';
+                Image = NewProperties;
+                Promoted = true;
+                PromotedCategory = Report;
+                ApplicationArea = All;
+                trigger OnAction()
+                var
+                    Student_L: Record Student;
+                    StudentNote_L: Report "Student's Notes";
+                begin
+                    CurrPage.SetSelectionFilter(Student_L);
+                    StudentNote_L.SetTableView(Student_L);
+                    StudentNote_L.Run();
                 end;
             }
             action(CalsFirstSemesterAVG)

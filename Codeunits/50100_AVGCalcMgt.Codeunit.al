@@ -18,10 +18,10 @@ codeunit 50100 "Average Calculation Management"
         Counter_L := 0;
         AVG_L := 0;
         if Student_L.Get(StudentCIN_P) then begin
-            Notes_L.Reset();
+            Notes_L.Reset(); // Reset() function is necessary to delete all filter applied to Notes_L
             Notes_L.SetRange("Student CIN", Student_L.CIN);
             Notes_L.SetRange(Semester, Semester_P);
-            if Notes_L.FindSet() then begin
+            if Notes_L.FindSet() then begin // Findset() function in necessary here to render multiple lines
                 // Counter_L := Notes_L.Count;
                 repeat
                     if Subject_L.Get(Notes_L."Subject Code") then
@@ -35,7 +35,7 @@ codeunit 50100 "Average Calculation Management"
             else
                 Student_L."Second Semester Average" := AVG_L;
 
-            if Student_L.Modify() then
+            if Student_L.Modify() then // Modify() function is necessary to apply changements
                 Message(SuccessMsg_L)
             else
                 Message(ErrorMsg_L);
@@ -59,7 +59,7 @@ codeunit 50100 "Average Calculation Management"
                 Student_L."Overall Year Status" := Student_L."Overall Year Status"::Passed
             else
                 Student_L."Overall Year Status" := Student_L."Overall Year Status"::"Not Passed";
-            Student_L.Modify();
+            Student_L.Modify(); // Modify() function is necessary to apply changements
 
         end;
     end;

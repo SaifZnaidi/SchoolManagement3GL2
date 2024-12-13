@@ -81,6 +81,21 @@ table 50100 Student
             Caption = 'Overall Year Status';
             Editable = false;
         }
+        field(11; "Number of Passed Students"; Integer)
+        {
+            // DataClassification = ToBeClassified;
+            Caption = 'Number of Passed Students';
+            FieldClass = FlowField;
+            CalcFormula = count(Student where("Overall Year Status" = const(Passed)));
+        }
+        field(12; "Number of not Passed Students"; Integer)
+        {
+            // DataClassification = ToBeClassified;
+            Caption = 'Number of Passed Students';
+            FieldClass = FlowField;
+            CalcFormula = count(Student where("Overall Year Status" = const("Not Passed")));
+        }
+
     }
 
     keys
